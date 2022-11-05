@@ -1,0 +1,27 @@
+header{
+    display: flex;
+    padding-top: 20px;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+
+    .logo {
+        font-size: 60px;
+        padding-top: 10px;
+        margin-left: 10px;
+        padding-right: 10px;
+        color: wheat;
+        font-family: cursive;
+        cursor: pointer;
+    }
+
+    a {
+        font-size: 25px;
+        padding-top: 10px;
+    }
+    a:hover {
+        color: blue;
+    }
+
+}

@@ -1,0 +1,55 @@
+main {
+    padding-left: 250px;
+    padding-right: 400px;
+    padding-bottom: 30px ;
+    
+    .row {
+        display: flex;
+        gap: 30px;
+    }
+    
+  
+    .col1 {
+        .img {
+            position: relative;
+        }
+        p {
+            position: absolute;
+            font-size: 80px;
+            top: 550px;
+            color: white;
+        }
+    }
+
+    .col2 {
+        .img2 {
+            position: relative;
+        }
+        p {
+            position: absolute;
+            font-size: 80px;
+            top: 1160px;
+            color: white;
+        }
+    }
+
+    .col3 {
+        .img3 {
+            position: relative;
+        }
+        p {
+            position: absolute;
+            font-size: 80px;
+            top: 1790px;
+            color: white;
+        }
+    }
+   
+    img {
+        width: 600px;
+        height: 600px;
+        object-fit: cover;
+        margin-top: 20px;
+    }
+
+}

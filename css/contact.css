@@ -1,0 +1,41 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+
+.row1 {
+	padding-top:60px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+.col1 {
+	padding-left: 10%;
+}
+
+.col2 h2  {
+	font-size: 30px;
+	font-family: sans-serif;
+	padding-top: 10px;
+}
+
+.col2 a {
+	font-size: 20px;
+	font-family: cursive;
+}
+
+@media only screen and (max-width: 1226px) {
+	.iframe {
+		width: 500px;
+		height: 300px;	
+	}
+}  
+
+@media only screen and (max-width: 1015px) {
+	.iframe {
+		width: 350px;
+		height: 250px;
+	}
+}

@@ -1,0 +1,375 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  font-family: sans-serif;
+}
+
+.header {
+  display: flex;
+  padding-top: 20px;
+  gap: 80px;
+  justify-content: center;
+  align-items: center;
+}
+.header .logo {
+  font-size: 60px;
+  padding-top: 10px;
+  margin-left: 10px;
+  padding-right: 10px;
+  color: wheat;
+  font-family: cursive;
+  cursor: pointer;
+}
+.header a {
+  font-size: 25px;
+  padding-top: 10px;
+}
+.header a:hover {
+  color: blue;
+}
+
+.header2 {
+  display: none;
+}
+
+.header2 .header2_ul {
+  background-color: black;
+  color: white;
+  width: 100px;
+  margin-left: 45%;
+  padding: 10px 30px;
+  text-align: center;
+}
+.header2_ul {
+  display: none;
+}
+ul.logo2:hover ul.header2_ul {
+  display: block;
+}
+
+.header2 .logo2 {
+  font-size: 30px;
+  text-align: center;
+}
+.header2 .header2_ul a {
+  color: white;
+  font-size: 25px;
+}
+
+.header2 .header2_ul li {
+  padding-top: 10px;
+}
+h5 {
+  color: #ababab;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 200;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-transform: uppercase;
+}
+
+main {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+main h4 {
+  text-align: center;
+  padding-left: 140px;
+  font-size: 70px;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-top: -50px;
+}
+main h6 {
+  text-align: center;
+  padding-left: 140px;
+  font-size: 70px;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-top: -80px;
+}
+main .main_img img {
+  width: 40%;
+  height: 5%;
+  margin-left: 40%;
+  object-fit: cover;
+  height: 800px;
+  text-align: center;
+  margin-top: -120px;
+}
+main .about_p h3 {
+  color: #515151;
+  font-size: 40px;
+  font-weight: 200;
+  text-align: center;
+  padding-left: 20%;
+}
+main .about_p p {
+  font-size: 18px;
+  color: #777777;
+  text-align: center;
+  padding-left: 14%;
+  line-height: 35px;
+}
+main .about_p button {
+  background-color: rgba(0, 0, 0, 0.632);
+  color: white;
+  border: none;
+  margin-left: 50%;
+  font-size: 20px;
+  padding: 15px 15px;
+}
+main .about_work h2 {
+  font-size: 40px;
+  font-weight: 100;
+  text-align: center;
+  padding-left: 14%;
+}
+main .about_work .about_flex {
+  padding-left: 20%;
+}
+
+main .about_work .about_flex img {
+  width: 40%;  
+}
+
+main .about_work img {
+  width: 350px;
+  object-fit: cover;
+  height: 600px;
+  margin-left: 4%;
+}
+main pre {
+  text-align: center;
+  padding-top: 80px;
+  font-size: 20px;
+}
+
+.container {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.container .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.container .row_blue {
+  padding: 60px 60px 0;
+  background-color: rgba(0, 0, 0, 0.876);
+  color: white;
+}
+.container .row_blue img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.container .row_blue i {
+  color: white;
+  font-size: 30px;
+}
+.container .row_blue h2 {
+  font-size: 50px;
+  font-weight: 300;
+}
+.container .row_blue h1 {
+  margin-top: -30px;
+  font-size: 90px;
+  font-weight: 400;
+}
+.container .row_blue h6 {
+  font-size: 30px;
+}
+.container .row_blue p {
+  font-size: 20px;
+  margin-top: -50px;
+}
+.container .row_bottom {
+  padding: 60px 60px 0;
+}
+.container .row_bottom h6 {
+  font-size: 30px;
+  margin-top: -5px;
+}
+.container .row_bottom p {
+  font-size: 20px;
+  margin-top: -50px;
+}
+.container .row_bottom .p_w {
+  width: 70%;
+}
+.container .row_pink {
+  background-color: pink;
+}
+
+main {
+  padding-left: 250px;
+  padding-right: 400px;
+  padding-bottom: 30px;
+}
+main .row {
+  display: flex;
+  gap: 30px;
+}
+main .col1 .img {
+  position: relative;
+}
+main .col1 p {
+  position: absolute;
+  font-size: 80px;
+  top: 550px;
+  color: white;
+}
+main .col2 .img2 {
+  position: relative;
+}
+main .col2 p {
+  position: absolute;
+  font-size: 80px;
+  top: 1160px;
+  color: white;
+}
+main .col3 .img3 {
+  position: relative;
+}
+main .col3 p {
+  position: absolute;
+  font-size: 80px;
+  top: 1790px;
+  color: white;
+}
+main img {
+  width: 600px;
+  height: 600px;
+  object-fit: cover;
+  margin-top: 20px;
+}
+
+.family_pic {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  column-gap: 20px;
+  padding-left: 11%;
+  padding-top: 70px;
+  padding-right: 5%;
+}
+
+.family_pic  img {
+  width: 450px;
+  height: 600px;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 1501px)  {
+  .main_portfolio {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+
+@media only screen and (max-width: 1448px) {
+  main .about_work .about_flex img {
+    height: 300px;
+  }
+
+  main .about_work .about_flex {
+    width: 10 0%;
+  }
+
+  main h6 {
+    font-size: 40px;
+    padding-bottom: 50px;
+  }
+  main h4 {
+    font-size: 40px;
+    padding-bottom: 15px;
+  }
+
+  main .about_p p {
+    font-size: 14px;
+    width:180%;
+    margin-left: -40%;
+  }
+
+  main .main_img img {
+    width: 30%;
+    height: 4%;
+  }
+
+  main .main_img {
+    padding-left: 10%;
+  }
+
+}
+
+@media only screen and (max-width: 1478px) {
+  .family_pic {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around ;
+  }
+}
+
+@media only screen and (max-width:1222px) {
+  
+  .place {
+    width: 600px;
+    margin-left: -10%;
+  }
+
+  main h6 {
+    font-size: 30px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+  }
+  main h4 {
+    padding-top: 20px;
+    font-size: 30px;
+    padding-bottom: 15px;
+  }
+}
+
+
+@media only screen and (max-width: 957px) {
+  .header {
+    display: none;
+  }
+
+  .header2 {
+    display: block;
+  }
+}
+
+.portfolio_h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.img:hover {
+  opacity: 0.3  ;
+}
+.img1:hover {
+  opacity: 0.3;
+}
+.img2:hover:hover {
+  opacity: 0.3;
+}
+
+/*# sourceMappingURL=style.css.map */
